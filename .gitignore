@@ -1,0 +1,37 @@
+# Python 虚拟环境
+.venv/
+venv/
+env/
+
+# Python 字节码与缓存
+__pycache__/
+*.py[cod]
+*.pyo
+
+# 测试与覆盖率产物
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# 类型检查与代码规范工具缓存
+.mypy_cache/
+.ruff_cache/
+.pyright/
+
+# 构建与打包产物
+build/
+dist/
+*.egg-info/
+
+# IDE 与编辑器
+.vscode/
+.idea/
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 环境变量与敏感信息
+.env
+*.env
